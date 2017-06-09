@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/addViewTop"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:text="添加信息"
+        android:textColor="#fff"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        />
+
+    <ImageButton
+        android:id="@+id/backList"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:src="@mipmap/add_return" />
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/addViewTop"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="#eee"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="姓名"
+            android:textColor="@color/colorFont"
+            />
+
+        <EditText
+            android:id="@+id/addText1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:text=""
+            android:textColor="@color/colorFont"
+            android:textColorLink="@color/colorBg" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/line1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="#eee"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="班级"
+            android:textColor="@color/colorFont"
+            />
+        <EditText
+            android:id="@+id/addText2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textColor="@color/colorFont"
+            android:text="电商131"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/line2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="#eee"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="学号"
+            android:textColor="@color/colorFont"
+            />
+        <EditText
+            android:id="@+id/addText3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textColor="@color/colorFont"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/line3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="#eee"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="语文"
+            android:textColor="@color/colorFont"
+            />
+        <EditText
+            android:id="@+id/addText4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textColor="@color/colorFont"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/line4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="#eee"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="数学"
+            android:textColor="@color/colorFont"
+            />
+        <EditText
+            android:id="@+id/addText5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textColor="@color/colorFont"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/line5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="#eee"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="英语"
+            android:textColor="@color/colorFont"
+            />
+        <EditText
+            android:id="@+id/addText6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textColor="@color/colorFont"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line6"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="提交"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        />
+
+</RelativeLayout>
